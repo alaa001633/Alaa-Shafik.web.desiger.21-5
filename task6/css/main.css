@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo h1 {
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-pills .nav-link {
+    color: gray;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+  
+    color:black !important;
+}
+.featured-article {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   
+}
+.article-image {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+   background-color: white;
+    color: blue;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.article-content {
+    padding: 25px;
+}
+.article-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:gray;
+   
+}
+.article-meta {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.article-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.article-info h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color:gray;
+}
+.sidebar-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.sidebar-section h3 {
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.sidebar-section p {
+    color: #666;
+    font-size: 14px;
+   
+}
+.story-item img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+}
+.story-content h4 {
+    font-size: 13px;
+    color: gray;
+    margin: 0;
+}

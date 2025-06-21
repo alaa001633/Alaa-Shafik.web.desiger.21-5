@@ -1,0 +1,40 @@
+
+    
+   
+
+.img:hover img{
+    
+    transform: scale(1.2) rotate(5deg);
+    
+}
+.img{
+    width: 30%;
+    background-color: lightgray;
+    
+   
+  
+}
+.overflow{
+    overflow: hidden;
+    
+}
+.continer img{
+    width: 100%;
+}
+.main-continer{
+    width: 80%;
+    margin: 20px auto;
+}
+.animation-card{
+    width: 200px;
+    height: 200px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    from{
+        transform: ;
+    }
+    
+}
